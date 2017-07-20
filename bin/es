@@ -132,14 +132,15 @@ function output(log, opts) {
   if ('error' == level) color = '31';
   if ('fatal' == level) color = '31';
 
-  msg = inspect(msg, { colors: true, depth: Infinity });
+  //msg = inspect(msg, { colors: true, depth: Infinity });
 
-  console.log();
-  console.log(hr());
-  console.log('   \033[' + color + 'm%s\033[m | %s | %s | %s', level, host, type, date);
-  console.log(hr());
-  console.log();
-  console.log(msg.replace(/^/gm, '  '));
+  //console.log();
+  //console.log(hr());
+  //console.log('   \033[' + color + 'm%s\033[m | %s | %s | %s', level, host, type, date);
+  //console.log(hr());
+  //console.log();
+  //console.log(msg.replace(/^/gm, '  '));
+  console.log(JSON.stringify(msg));
 }
 
 /**

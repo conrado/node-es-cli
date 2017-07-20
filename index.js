@@ -129,7 +129,13 @@ function from(arr) {
 function normalize(fields) {
   return function(log){
     log = log._source;
-    log.message = JSON.parse(log.message);
+    if (log.hasOwnProperty('message'))
+      log.message = JSON.parse(log.message);
+    else {
+      log1 = log;
+      log = new Object();
+      log.message = log1
+    }
     if (fields) log.message = only(log.message, fields);
     return log;
   }

@@ -1,8 +1,74 @@
 {
-  "name": "es-cli",
-  "version": "0.4.1",
-  "repository": "visionmedia/node-es-cli",
+  "_args": [
+    [
+      {
+        "raw": "es-cli",
+        "scope": null,
+        "escapedName": "es-cli",
+        "name": "es-cli",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/conrado"
+    ]
+  ],
+  "_from": "es-cli@latest",
+  "_id": "es-cli@0.4.1",
+  "_inCache": true,
+  "_location": "/es-cli",
+  "_npmUser": {
+    "name": "tjholowaychuk",
+    "email": "tj@vision-media.ca"
+  },
+  "_npmVersion": "1.3.23",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "es-cli",
+    "scope": null,
+    "escapedName": "es-cli",
+    "name": "es-cli",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/es-cli/-/es-cli-0.4.1.tgz",
+  "_shasum": "7b102a6185eb7d80994a8fc849b4f9e81c19f386",
+  "_shrinkwrap": null,
+  "_spec": "es-cli",
+  "_where": "/Users/conrado",
+  "bin": {
+    "es": "bin/es"
+  },
+  "bugs": {
+    "url": "https://github.com/visionmedia/node-es-cli/issues"
+  },
+  "dependencies": {
+    "bytes": "~0.2.1",
+    "commander": "~2.1.0",
+    "date.js": "~0.2.0",
+    "debug": "~0.7.4",
+    "elucene": "~0.3.2",
+    "humanize-number": "0.0.2",
+    "moment": "~2.5.1",
+    "only": "0.0.2",
+    "printf": "~0.1.2",
+    "superagent": "~0.16.0"
+  },
   "description": "Elasticsearch CLI for querying your logs",
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "7b102a6185eb7d80994a8fc849b4f9e81c19f386",
+    "tarball": "https://registry.npmjs.org/es-cli/-/es-cli-0.4.1.tgz"
+  },
+  "homepage": "https://github.com/visionmedia/node-es-cli",
   "keywords": [
     "es",
     "elastic search",
@@ -11,24 +77,19 @@
     "cli",
     "command"
   ],
-  "dependencies": {
-    "commander": "~2.1.0",
-    "superagent": "~0.16.0",
-    "debug": "~0.7.4",
-    "printf": "~0.1.2",
-    "moment": "~2.5.1",
-    "elucene": "~0.3.2",
-    "only": "0.0.2",
-    "humanize-number": "0.0.2",
-    "bytes": "~0.2.1",
-    "date.js": "~0.2.0"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
-  },
   "license": "MIT",
-  "bin": {
-    "es": "bin/es"
-  }
+  "maintainers": [
+    {
+      "name": "tjholowaychuk",
+      "email": "tj@vision-media.ca"
+    }
+  ],
+  "name": "es-cli",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/visionmedia/node-es-cli.git"
+  },
+  "version": "0.4.1"
 }
